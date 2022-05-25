@@ -20,8 +20,6 @@ connection.connect(
         } 
         else {
             console.log('Successfully connected to Snowflake.');
-            // Optional: store the connection ID.
-            connection_ID = conn.getId();
         }
     }
 );
@@ -44,8 +42,6 @@ const create = async () => {
 
     // server
     const app = express();
-
-    const router = express.Router();
 
     // app.set("view engine", "ejs");
     // app.set("views", "src");
