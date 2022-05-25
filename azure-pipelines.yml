@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-- main
+- none
 
 variables:
   azureSubscription: '71ea5117-0f39-40fc-a6b8-3a38ff4d81de'
