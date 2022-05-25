@@ -38,6 +38,7 @@ steps:
 - upload: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
   artifact: drop
 
+stages:
 - stage: Deploy
   displayName: Deploy stage
   dependsOn: Build
