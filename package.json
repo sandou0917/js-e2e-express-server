@@ -35,7 +35,11 @@
     "jest": "^26.4.2",
     "nodemon": "^2.0.4",
     "prettier": "^2.1.2",
-    "supertest": "^6.1.1"
+    "supertest": "^6.1.1",
+    "gulp": "",
+    "gulp-bower": "",
+    "gulp-load-plugins": "",
+    "gulp-util": ""
   },
   "dependencies": {
     "body-parser": "^1.19.0",
