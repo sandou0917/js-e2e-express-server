@@ -20,6 +20,7 @@ connection.connect(
         } 
         else {
             console.log('Successfully connected to Snowflake.');
+            resolve(conn);
         }
     }
 );
